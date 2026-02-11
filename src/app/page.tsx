@@ -1,5 +1,5 @@
 'use client';
- 
+  
 import React, { useEffect, useState } from 'react';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { agentHandler } from '@/components/back/agent';
